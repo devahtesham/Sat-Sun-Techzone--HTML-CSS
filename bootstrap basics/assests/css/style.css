@@ -1,0 +1,7 @@
+header{
+    box-shadow: 0 3px 10px 0px #00000061
+}
+.custom-card{
+    border: 1px solid darkgray;
+    border-radius: 10px;
+}

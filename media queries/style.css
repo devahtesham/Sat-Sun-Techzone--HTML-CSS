@@ -1,0 +1,62 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: #fff;
+}
+/* ============= media queries */
+/*
+
+case1:- 
+max-width, 
+
+case2:- 
+min-width,
+
+case3:-
+max-width min-width 
+
+*/
+
+@media only screen and (max-width:1365px){
+    body{
+        background-color: red;
+    }
+    h1{
+        color:#fff;
+    }
+}
+@media only screen and (max-width:767px){
+    body{
+        background-color: palevioletred;
+    }
+    h1{
+        color:#fff;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:576px){
+    h1{
+        color: black;
+        
+    }
+}
+
+@media only screen and (min-width:430px) and (max-width:768px) {
+    h1{
+        color: chartreuse;
+        font-style: italic;
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+@media only screen and (min-width:1366px){
+    body{
+        background-color: unset;
+    }
+    h1{
+        color:unset;
+    }
+}
+
+

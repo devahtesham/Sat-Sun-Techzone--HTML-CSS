@@ -1,0 +1,51 @@
+/* 
+units:-
+1. px ====> static
+// responsive unites
+
+2. rem
+3.em
+4.vw
+5.vh
+
+*/
+/* span{
+    font-size: 1rem;
+} */
+
+/* .box{
+    font-size: 20px;
+}
+span{
+    font-size: 2em;
+} */
+/* .box{
+    background-color: red;
+} */
+.box{
+    position: relative;
+}
+h1::after{
+    content: "";
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 172px;
+    height: 4px;
+    background-color: black;
+    width: 0;
+    transition-duration: 1s ;
+   
+}
+h1:hover:after{
+    width: 172px;
+}
+/* .child-2{
+    color: red;
+} */
+/* ul li:nth-of-type(2){
+    color: red;
+} */
+ul li:last-child{
+   color: red;
+}
